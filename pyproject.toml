@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "knowledge-gpt"
+version = "0.1.0"
+description = ""
+authors = ["Sami Kahil <sami.juniorco@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.32.2"
+langchain = "^0.1.12"
+docx2txt = "^0.8"
+pymupdf = "^1.23.26"
+openai = "^1.14.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
